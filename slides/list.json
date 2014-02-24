@@ -2,6 +2,8 @@
     "index.md",
     "review.md",
     "toc.md",
+    "sampleapp.md",
+    "design-database.md",
     [
         "pre-setup.md",
         "setup.md"
@@ -22,5 +24,24 @@
         "post-creation-2.md"
     ],
     "partials.md",
-    "relation.md"
+    "relation.md",
+    [
+        "create-user-model.md",
+        "edit-user-model.md",
+        "create-user-controller.md",
+        "create-welcome-controller.md",
+        "edit-welcome-index.md",
+        "edit-welcome-controller.md",
+        "edit-application-controller.md",
+        "create-user-form.md"
+    ],
+    [
+        "create-sessions-controller.md",
+        "edit-sessions-controller.md",
+        "edit-route.md",
+        "edit-layouts-application.md",
+        "create-header.md",
+        "create-sessions-form.md",
+        "sessions-localize.md"
+    ]
 ]

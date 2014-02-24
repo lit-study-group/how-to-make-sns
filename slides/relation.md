@@ -16,7 +16,7 @@
 
 <div class="half right">
   <table>
-    <caption>frienships</captin>
+    <caption>friendships</captin>
     <thead><tr><td>user_id</td><td>other_id</td></tr></thead>
     <tbody>
       <tr><td>1<td>2
