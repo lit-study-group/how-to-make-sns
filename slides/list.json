@@ -2,5 +2,8 @@
     "index.md",
     "review.md",
     "toc.md",
-    "setup.md"
+    [
+        "pre-setup.md",
+        "setup.md"
+    ]
 ]
