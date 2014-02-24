@@ -16,7 +16,7 @@
 ```
 <!-- app/views/index.html.erb -->
 ....
-<%= form_for post, html: { class: 'form post-form' } do |f| %>
+<%= form_for @post, html: { class: 'form post-form' } do |f| %>
   <div class="form-group row">
     <div class="col-lg-11">
       <%= f.text_area :body, class: 'form-control' %>
