@@ -34,4 +34,7 @@ end
 
 ```
 bundle install
+bundle exec rails server
 ```
+
+[http://localhost:3000](http://localhost:3000)にアクセして確認.

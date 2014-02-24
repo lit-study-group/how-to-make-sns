@@ -28,4 +28,3 @@ bundle exec rails console
 > Post.last
 > Post.all
 ```
-

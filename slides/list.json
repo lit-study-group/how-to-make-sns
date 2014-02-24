@@ -9,5 +9,8 @@
     [
         "post-model.md",
         "post-model-usage.md"
-    ]
+    ],
+    "post-controller-base.md",
+    "post-routing-base.md",
+    "post-views.md"
 ]
