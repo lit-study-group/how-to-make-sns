@@ -146,3 +146,43 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #13daec; }
+
+table {
+  padding: 0; }
+  table thead tr {
+    background-color: #383838; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: #a9a9a9;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #7d7d7d; }
+  table th {
+    font-weight: bold;
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px; }
+  table td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px; }
+  table th :first-child, table td :first-child {
+    margin-top: 0; }
+  table th :last-child, table td :last-child {
+    margin-bottom: 0; }
+
+.half {
+  width: 50%; }
+  .half.left {
+    float: left; }
+  .half.right {
+    float: right; }
+
+.half .move-right {
+  margin-left: 40%; }
+
+.clear {
+  clear: both; }
