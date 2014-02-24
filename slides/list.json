@@ -12,5 +12,6 @@
     ],
     "post-controller-base.md",
     "post-routing-base.md",
-    "post-views.md"
+    "post-views.md",
+    "bootstrap.md"
 ]
