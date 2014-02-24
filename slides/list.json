@@ -6,5 +6,8 @@
         "pre-setup.md",
         "setup.md"
     ],
-    "post-model.md"
+    [
+        "post-model.md",
+        "post-model-usage.md"
+    ]
 ]
