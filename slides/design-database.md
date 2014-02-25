@@ -2,4 +2,4 @@
 
 MySQLWorkbench
 
-![sns-eer](/img/er_diagram.jpg)
+![sns-eer](./img/er_diagram.jpg)
