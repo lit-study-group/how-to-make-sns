@@ -33,7 +33,7 @@ end
 編集終わったら
 
 ```
-bundle install
+bundle install --without production
 bundle exec rails server
 ```
 
