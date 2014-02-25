@@ -24,7 +24,8 @@
         "post-creation-2.md"
     ],
     "partials.md",
-     [
+   "show-post.md",
+    [
         "create-user-model.md",
         "edit-user-model.md",
         "create-user-controller.md",
