@@ -7,7 +7,7 @@
 ```ruby
 # config/routes.rb
 Iwarksns::Application.routes.draw do
-  root 'posts#index' 
+  root 'posts#index'
 
   resources :posts, only: [:create, :destroy]
 end
@@ -21,8 +21,8 @@ get    '/posts/:id',      to: 'posts#show'
 get    '/posts/new',      to: 'posts#new'
 post   '/posts',          to: 'posts#create'
 get    '/posts/:id/edit', to: 'posts#edit'
-patch  '/posts/:id',      to: 'posts#edit'
-delete '/posts/:id',      to: 'posts#index'
+patch  '/posts/:id',      to: 'posts#update'
+delete '/posts/:id',      to: 'posts#destroy'
 ```
 
 `only`でその中の２つだけ選ぶ. 逆は`except`.
