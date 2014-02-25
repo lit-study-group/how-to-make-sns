@@ -3,7 +3,7 @@
 作成と動作確認
 
 ```
-rails install rails
+gem install rails
 rails new iwarksns
 cd iwarksns
 bundle exec rails server
