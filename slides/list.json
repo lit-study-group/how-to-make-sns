@@ -24,8 +24,7 @@
         "post-creation-2.md"
     ],
     "partials.md",
-    "relation.md",
-    [
+     [
         "create-user-model.md",
         "edit-user-model.md",
         "create-user-controller.md",
@@ -43,5 +42,7 @@
         "create-header.md",
         "create-sessions-form.md",
         "sessions-localize.md"
-    ]
+    ],
+    "relation.md",
+    "link-user-post.md"
 ]

@@ -174,12 +174,25 @@ table {
   table th :last-child, table td :last-child {
     margin-bottom: 0; }
 
+.seventh {
+  width: 70%; }
+
+.third {
+  width: 30%; }
+
+.sixth {
+  width: 60%; }
+
+.fourth {
+  width: 40%; }
+
 .half {
   width: 50%; }
-  .half.left {
-    float: left; }
-  .half.right {
-    float: right; }
+
+.half.left, .sixth.left, .fourth.left, .seventh.left, .third.left {
+  float: left; }
+.half.right, .sixth.right, .fourth.right, .seventh.right, .third.right {
+  float: right; }
 
 .half .move-right {
   margin-left: 40%; }
