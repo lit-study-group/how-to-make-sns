@@ -14,7 +14,7 @@
 投稿のためのフォームを作る.
 
 ```
-<!-- app/views/index.html.erb -->
+<!-- app/views/posts/index.html.erb -->
 ....
 <%= form_for @post, html: { class: 'form post-form' } do |f| %>
   <div class="form-group row">
