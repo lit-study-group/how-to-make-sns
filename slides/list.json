@@ -48,6 +48,7 @@
     "relation.md",
     [
         "link-user-post.md",
-        "relation-user-post.md"
+        "relation-user-post.md",
+        "user-post-controller.md"
     ]
 ]
