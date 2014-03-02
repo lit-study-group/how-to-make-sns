@@ -46,5 +46,8 @@
         "sessions-localize.md"
     ],
     "relation.md",
-    "link-user-post.md"
+    [
+        "link-user-post.md",
+        "relation-user-post.md"
+    ]
 ]
