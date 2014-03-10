@@ -3,7 +3,7 @@
 必要なデータベースのテーブルを作成.
 
 ```
-$ rails g migration CreateFriendships
+$ bundle exec rails g migration CreateFriendships
 ```
 
 繋げるためのテーブルに`id`の必要性ない.
@@ -27,6 +27,6 @@ end
 
 
 ```
-$ rake db:migrate
+$ bundle exec rake db:migrate
 ```
 

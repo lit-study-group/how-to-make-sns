@@ -55,5 +55,12 @@
     [
         "friend-relation.md",
         "friend-model.md"
+    ],
+    [
+        "user-list.md",
+        "user-routes.md",
+        "user-view.md",
+        "user-view-2.md"
     ]
- ]
+ 
+]
