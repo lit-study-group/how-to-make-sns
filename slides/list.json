@@ -50,5 +50,9 @@
         "link-user-post.md",
         "relation-user-post.md",
         "user-post-controller.md"
+    ],
+    [
+        "friend-relation.md",
+        "friend-model.md"
     ]
 ]
