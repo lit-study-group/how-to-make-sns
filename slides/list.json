@@ -49,10 +49,11 @@
     [
         "link-user-post.md",
         "relation-user-post.md",
-        "user-post-controller.md"
+        "user-post-controller.md",
+        "update-post-view.md"
     ],
     [
         "friend-relation.md",
         "friend-model.md"
     ]
-]
+ ]

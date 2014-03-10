@@ -24,3 +24,12 @@ ja:
   errors:
     login: メールアドレスもしくはアドレスが正しくありません
 ```
+
+言語を設定する
+
+```
+# config/application.rb
+...
+config.i18n.default_locale = :ja
+...
+```

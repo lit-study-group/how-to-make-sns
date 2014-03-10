@@ -2,24 +2,23 @@
 
 <br />
 
-```html
+<pre><code>
 <!-- app/views/layouts/application.html.erb -->
-<!DOCTYPE html>
-<html>
-<head>
-  <title><%= t 'general.title' %></title>
-  <%= stylesheet_link_tag    "application", media: "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<div class="container">
-  <%= render 'layouts/header', user: @user %>
-
-  <%= yield %>
-</div>
-
-</body>
-</html>
-```
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;&lt;%= t 'general.title' %&gt;&lt;/title&gt;
+  &lt;%= stylesheet_link_tag    "application", media: "all" %&gt;
+  &lt;%= javascript_include_tag "application" %&gt;
+  &lt;%= csrf_meta_tags %&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class="container"&gt;
+  &lt;%= render 'layouts/header', user: @user %&gt;
+  &lt;div class="container"&gt;
+    &lt;%= yield %&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre></code>
