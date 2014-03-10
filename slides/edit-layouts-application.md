@@ -14,8 +14,8 @@
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div class="container"&gt;
-  &lt;%= render 'layouts/header', user: @user %&gt;
   &lt;div class="container"&gt;
+    &lt;%= render 'layouts/header', user: @user %&gt;
     &lt;%= yield %&gt;
   &lt;/div&gt;
 &lt;/div&gt;
